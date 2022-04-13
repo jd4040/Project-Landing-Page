@@ -137,6 +137,7 @@ img.img-padding{
     gap: 100px;
     padding: 50px 200px;
     border-radius: 20px;
+    white-space: nowrap;
 }
 
 .modal-text{
