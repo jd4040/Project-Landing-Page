@@ -5,45 +5,42 @@ body{
 
 }
 
-content-container{
-    display: flex;
-}
-
-.content-container-left{
-    width: 30000px;
-}
-
-.content-container-center{
+.content-container{
     display: flex;
     flex-direction: column;
 }
 
-.hero-container{
-    background-color: #1F2937 ;
-    padding: 0 0 100px 0;
-}
+
 
 .header{
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 0 300px 0 300px;
 }
 .header-links{
     display: flex;
     gap: 16px;
 }
 .hero-content-container{
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     gap: 32px;
+    padding: 0 300px 0 300px;
 }
 
 .hero-content{
+
+    
+}
+
+.hero-text{
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    width: 500px;
 }
-
 
 a{
     text-decoration: none;
